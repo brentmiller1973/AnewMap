@@ -1,23 +1,18 @@
 {
-  "name": "anew-map-demo",
+  "name": "anew-map",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "leaflet": "1.9.2"
+    "leaflet": "1.9.3"
   },
+  "keywords": [],
   "devDependencies": {
-    "parcel-bundler": "^1.6.1",
-    "@parcel/transformer-sass": "2.8.2",
-    "@babel/core": "7.2.0",
-    "typescript": "4.4.4"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": []
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
 }

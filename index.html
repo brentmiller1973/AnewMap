@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title></title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700" />
+    <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700" />
+    <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700" />
+    <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700" />
   </head>
 
   <body>
+  <!--
+      Next three lines are what would go in a Twig template.
+      Obviously, you would want an edge to edge container wrapper
+      as well as the script being referenced where it should reside
+      in a drupal folder structure
+  -->
     <div id="map"></div>
-
-    <script src="src/index.js"></script>
+    <div id="sidebar">
+      <div class="sidebar-content">
+        <div class="sidebar-content-image">
+          <img alt="" src="forest.png" />
+        </div>
+        <div class="sidebar-content-data">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
